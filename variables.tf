@@ -1,10 +1,10 @@
 variable "linode_region" {
-  description = "THe Linode region where we are working"
+  description = "The Linode region where resources are being managed"
   type        = string
 }
 
 variable "linode_bucket_label" {
-  description = "The label for the bucket we are creating"
+  description = "The label for the bucket"
   type        = string
 }
 
