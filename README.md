@@ -30,8 +30,8 @@ No modules.
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | <a name="input_linode_bucket_count"></a> [linode\_bucket\_count](#input\_linode\_bucket\_count) | The number of buckets to create | `number` | n/a | yes |
-| <a name="input_linode_bucket_label"></a> [linode\_bucket\_label](#input\_linode\_bucket\_label) | The label for the bucket we are creating | `string` | n/a | yes |
-| <a name="input_linode_region"></a> [linode\_region](#input\_linode\_region) | THe Linode region where we are working | `string` | n/a | yes |
+| <a name="input_linode_bucket_label"></a> [linode\_bucket\_label](#input\_linode\_bucket\_label) | The label for the bucket | `string` | n/a | yes |
+| <a name="input_linode_region"></a> [linode\_region](#input\_linode\_region) | The Linode region where resources are being managed | `string` | n/a | yes |
 
 ## Outputs
 
