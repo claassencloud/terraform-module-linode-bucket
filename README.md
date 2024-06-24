@@ -1,11 +1,12 @@
 # Terraform Module Linode Bucket
-A Terraform module to manage Linode object storage bucekts
+A Terraform module to manage Linode object storage buckets
 
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
 | Name | Version |
 |------|---------|
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | ~> 1.5 |
 | <a name="requirement_linode"></a> [linode](#requirement\_linode) | ~> 2.22 |
 
 ## Providers
@@ -22,7 +23,7 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [linode_object_storage_bucket.foobar](https://registry.terraform.io/providers/linode/linode/latest/docs/resources/object_storage_bucket) | resource |
+| [linode_object_storage_bucket.bucket](https://registry.terraform.io/providers/linode/linode/latest/docs/resources/object_storage_bucket) | resource |
 | [linode_object_storage_cluster.primary](https://registry.terraform.io/providers/linode/linode/latest/docs/data-sources/object_storage_cluster) | data source |
 
 ## Inputs
